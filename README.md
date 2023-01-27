@@ -1,9 +1,5 @@
 # TLGB_trainy_repo
-My first TLGbot
 
+## My first TLGbot
 
-
-Try... Try... Try...
-
-
-Again... try....
+It is initial readme file
