@@ -2,8 +2,6 @@ from aiogram import types, Dispatcher
 import json, string
 from create_bot import dp
 
-########## ОБЩАЯ ЧАСТЬ ##########
-
 # фильтр обновляется только при запуске бота
 jsload = set(json.load(open('anti_mat.json')))
 # @dp.message_handler()
@@ -20,6 +18,6 @@ async def echo_send(message: types.Message):
 	# await bot.send_message(message.from_user.id, message.text)
 
 
-def register_handler_other(dp : Dispatcher):
+def register_handler_other(dp: Dispatcher):
 	dp.register_message_handler(echo_send)
 
